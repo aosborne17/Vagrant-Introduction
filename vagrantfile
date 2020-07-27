@@ -2,5 +2,11 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/xenial64"
+# creating a virtual machine ubuntu
+  config.vm.network "private_network", ip: "192.168.10.100"
+# creating a private ip to access our nginx server on the web from inside the VM
+
+# redirecting the above IP to a specific we address
+  config.hostsupdater.aliases = ["development.local"]
 
 end
