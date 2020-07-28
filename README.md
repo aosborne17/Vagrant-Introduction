@@ -71,7 +71,7 @@ apt-get install nginx
 apt-get already has many packages available so it is able to install nginx for us
 if it cannot find nginx, it will look online to find the program on specific directories
 
-How to check the status of the installed program -- "systemctl status nginx"
+"systemctl status nginx" --> Check the status of the installed program -- 
 nginx is a web server that allows us to launch live websites, connecting to
 IP's etc
 
