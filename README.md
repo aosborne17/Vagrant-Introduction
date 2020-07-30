@@ -1,3 +1,16 @@
+# Vagrant
+
+## What is Vagrant
+
+- Vagrant is a Vagrant is a tool for building and managing virtual machine environments in a single workflow 
+with an easy-to-use workflow and focus on automation.
+
+
+
+
+![Diagram](images/VM_Vagrant_Diagram_automating_Node.png)
+
+
 
 ## How to open and use Linux Virtual Machine Step By Step
 

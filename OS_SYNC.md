@@ -98,3 +98,6 @@ Allows us to the check the content of the file without opening it
 "x" ---> executable
 
 This is beneficial where we would like others to read our files without the capabilites of editing them.
+
+ESC u --> undo
+ESC e --> redo
