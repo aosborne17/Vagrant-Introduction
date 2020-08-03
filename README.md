@@ -37,57 +37,5 @@ Note that Vagrant files are written in Ruby
 
 Once inside the VM, the operating system is Linux and thus linux commands must be used
 
-## Common Linux Commands
-
-
-
-- "nano nameoffile" --> allows entry inside of a file and then edit it
-
-- "touch nameoffile" --> allows the creation of a file in
-
-- "rm nameoffile" --> deleting a file(may have to use sudo for admin usage)
-
-- "mkdir nameofdirectory" -->create a directory
-
-- "cd nameofdir" Entry inside a directory 
-
-- "cd -" --> Exit a directory
-
-- "cd /" --> Return to the root directory
-
-- echo "hello" --> Print on the command line 
-
-- "sudo su" --> Change to the root user
-
-- "exit" --> Return back to normal user 
- 
-- "id" --> Check who is using the machine
- 
-Sudo works by allowing us to run a command in admin
-
-- "pwd" --> Shows the current file location
-
-- "ls" --> Checking contents of the current directory
-
-"ls -a" Searching for hidden files in a directory
-
-- "uname" --> Displays name of operating system'
-
-sudo apt-get update -y
-
-This command can be broken down and explained
-
-- sudo means the command will be run at the root user
-- apt-get is a package manager where we can update/install packages
-- -y means that means we will not be prompt whether we want to download something or not, the default is yes
-apt-get install nginx
-apt-get already has many packages available so it is able to install nginx for us
-if it cannot find nginx, it will look online to find the program on specific directories
-
-"systemctl status nginx" --> Check the status of the installed program -- 
-nginx is a web server that allows us to launch live websites, connecting to
-IP's etc
-
-When we search in a website we don't type in a IP address, we have a website name
 
 
