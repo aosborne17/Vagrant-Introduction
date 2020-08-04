@@ -11,15 +11,16 @@ with an easy-to-use workflow and focus on automation.
 
 In order to run our Virtual Machine we would need to download these softwares
 
-- 1) Ruby
+### Ruby
  
 
-- 2) Vagrant 
+### Vagrant 
 
 Ensure to install vagrant version 2.2.7, click [Here](https://releases.hashicorp.com/vagrant/) ensuring you download the correct software for your Operating
 System
 
-- Virtual Box
+### Virtual Box
+
 
 ## How to open and use Linux Virtual Machine Step By Step
 
