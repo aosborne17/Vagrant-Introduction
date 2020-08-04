@@ -5,12 +5,21 @@
 - Vagrant is a Vagrant is a tool for building and managing virtual machine environments in a single workflow 
 with an easy-to-use workflow and focus on automation.
 
-
-
-
 ![Diagram](images/VM_Vagrant_Diagram_automating_Node.png)
 
+## Downloading the Dependencies Necessary
 
+In order to run our Virtual Machine we would need to download these softwares
+
+- 1) Ruby
+ 
+
+- 2) Vagrant 
+
+Ensure to install vagrant version 2.2.7, click [Here](https://releases.hashicorp.com/vagrant/) ensuring you download the correct software for your Operating
+System
+
+- Virtual Box
 
 ## How to open and use Linux Virtual Machine Step By Step
 
